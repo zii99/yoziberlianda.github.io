@@ -1,0 +1,163 @@
+:root {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: palevioletred;
+    font-size: 13pt;
+    line-height: 0.75cm;
+}
+
+/*----------CSS pada Judul/ Heading---------*/
+h1 {
+    color: white;
+    line-height: 1cm;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body#home {
+    margin: 0.5cm 2cm;
+    background-image: url(https://www.freecodecamp.org/news/content/images/2021/06/w-qjCHPZbeXCQ-unsplash.jpg);
+}
+
+fieldset#home {
+    /* groupping */
+    /* color: white; */
+    background-color: pink;
+    border: rgb(192, 93, 0) 3px solid;
+    border-style: ridge;
+    /* border-radius: 30px; */
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    /*
+    padding: 15px; => all padding
+    padding: 15px 5px; => atas-bawah:15px, kanan-kiri:px 
+    padding: 10px 5px 10px 5px; => searah jarum jam
+    */
+    padding: 5px;
+}
+
+legend#home {
+    background-color: pink;
+    border: rgb(192, 93, 0) 3px solid;
+    border-style: ridge;
+    width: 80px;
+    border-radius: 25%;
+}
+
+h2#home {
+    text-align: center;
+    padding: auto;
+}
+
+/*----------CSS pada Horizontal Rule---------*/
+hr#home {
+    border: 1px solid;
+}
+
+div#menu {
+    text-align: center;
+}
+
+/*----------CSS pada Menu (Pseudo Class)-----------*/
+a:link,
+a:active,
+a:visited {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 14pt;
+    font-weight: bold;
+    border: 2px ridge #ff7675;
+    border-radius: 15px;
+    background-color: #fd79a8;
+    padding: 10px;
+    margin: 0 5px;
+}
+a:hover {
+    text-decoration: none;
+    color: red;
+    font-size: 16pt;
+    font-weight: bolder;
+    border: 5px inset #ff7675;
+    border-radius: 25px;
+    background-color: #fd79a8;
+    padding: 15px;
+}
+
+/*-------CSS Pseudo Element pada salah satu paragraf----------*/
+.p1:first-letter {
+    font-size: 30pt;
+    color: palevioletred;
+    font-family: 'Segoe UI';
+    float: left;
+    padding-right: 5px;
+}
+
+p.p1::first-line {
+    font-style: italic;
+    background-color: khaki;
+    color: black;
+}
+
+/*----------CSS pada paragraf---------*/
+p.intro {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12pt;
+    color: black;
+}
+
+.tik {
+    font-weight: bolder;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+ul.hobby {
+    list-style-image: url('image/circle.png');
+}
+
+
+.goals {
+    list-style-image: url('image/right-arrow.png');
+}
+
+.food {
+    list-style-image: url('image/restaurant.png');
+}
+
+.drink {
+    list-style-image: url('image/water-bottle.png');
+}
+
+/* ---------------CSS Pada Tabel------------- */
+#pendidikan {
+    padding: 100px 250px 500px 250px;
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: unset;
+    width: 100%;
+    color: white;
+}
+
+#pendidikan td,
+#pendidikan th {
+    border: 1px dashed white;
+    padding: 10px;
+}
+
+#pendidikan th {
+    padding: 10px 5px;
+    background-color: #ff4d4d;
+    color: white;
+}
+
+#pendidikan tr:nth-child(even) {
+    background-color: #ff3838;
+}
+
+#pendidikan tr:nth-child(odd) {
+    background-color: #ff3838;
+}
+
+#pendidikan tr:hover {
+    background-color: orange;
+}
